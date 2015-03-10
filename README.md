@@ -28,3 +28,5 @@ exports.getProcessors = function () {
 ## Related
 
 - [edp-build-fontmin-demo](https://github.com/junmer/edp-build-fontmin-demo)
+
+[![NPM](https://nodei.co/npm/edp-build-fontmin.png?downloads=true&stars=true)](https://nodei.co/npm/edp-build-fontmin/)
