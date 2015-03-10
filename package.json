@@ -1,0 +1,31 @@
+{
+  "name": "edp-build-fontmin",
+  "version": "0.0.0",
+  "description": "edp-build with fontmin",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junmer/edp-build-fontmin.git"
+  },
+  "files": ["index.js"],
+  "keywords": [
+    "edp",
+    "build",
+    "fontmin",
+    "font-face",
+    "ttf",
+    "svg",
+    "woff",
+    "eot"
+  ],
+  "author": "junmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junmer/edp-build-fontmin/issues"
+  },
+  "homepage": "https://github.com/junmer/edp-build-fontmin",
+  "dependencies": {
+    "extend": "^2.0.0",
+    "fontmin": "^0.4.0"
+  }
+}
