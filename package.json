@@ -1,6 +1,6 @@
 {
   "name": "edp-build-fontmin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "edp-build with fontmin",
   "main": "index.js",
   "repository": {
