@@ -1,11 +1,11 @@
 {
   "name": "edp-build-fontmin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "edp-build with fontmin",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/junmer/edp-build-fontmin.git"
+    "url": "https://github.com/ecomfe/edp-build-fontmin.git"
   },
   "files": ["index.js"],
   "keywords": [
@@ -21,9 +21,9 @@
   "author": "junmer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/junmer/edp-build-fontmin/issues"
+    "url": "https://github.com/ecomfe/edp-build-fontmin/issues"
   },
-  "homepage": "https://github.com/junmer/edp-build-fontmin",
+  "homepage": "https://github.com/ecomfe/edp-build-fontmin",
   "dependencies": {
     "extend": "^2.0.0",
     "fontmin": "^0.4.0"
