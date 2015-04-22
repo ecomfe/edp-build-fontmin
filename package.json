@@ -26,6 +26,6 @@
   "homepage": "https://github.com/ecomfe/edp-build-fontmin",
   "dependencies": {
     "extend": "^2.0.0",
-    "fontmin": "^0.4.0"
+    "fontmin": "^0.7.3"
   }
 }

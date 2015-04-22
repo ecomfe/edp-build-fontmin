@@ -16,7 +16,7 @@ var Fontmin = require('fontmin');
  * @param  {processContext}   processContext 处理器上下文
  * @param  {Function} done           完成回调
  */
-function fontMinify (file, processContext, done) {
+function fontMinify(file, processContext, done) {
 
     var text = this.text || '';
 
@@ -52,15 +52,9 @@ function fontMinify (file, processContext, done) {
         .use(Fontmin.glyph({
             text: text
         }))
-        .use(Fontmin.ttf2eot({
-            clone: true
-        }))
-        .use(Fontmin.ttf2woff({
-            clone: true
-        }))
-        .use(Fontmin.ttf2svg({
-            clone: true
-        }))
+        .use(Fontmin.ttf2eot())
+        .use(Fontmin.ttf2woff())
+        .use(Fontmin.ttf2svg())
         .dest(destPath);
 
     var me = this;
